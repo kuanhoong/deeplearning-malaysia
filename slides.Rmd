@@ -35,7 +35,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Neural Network Layers
 
-<center><img src="images/neural_networks.png"></center>
+<center><img src="images/neural_networks.png" width=700></center>
 
 ## Deep Learning
 
@@ -72,37 +72,37 @@ knitr::opts_chunk$set(echo = FALSE)
 - [h2o](https://github.com/h2oai/h2o-3): The R interface to the H2O deep-learning framework.
 
 ##MXNet
-<center><img src="images/mxnet.png"></center>
+<center><img src="images/mxnet.png" width=200></center>
 
-* MXNet runs on Amazon Linux, Ubuntu/Debian, OS X, and Windows operating systems.
-* Flexible and efficient GPU computing and state-of-art deep learning to R. 
-* Seamless tensor/matrix computation with multiple GPUs in R. 
-* Construct and customize the state-of-art deep learning models in R, and apply them to tasks, such as image classification and data science challenges
-* Supports the Python, R, Julia and Scala languages
-* MXNet Package can be downloaded using the following commands:
+* **Founded by:** Uni. Washington & Carnegie Mellon Uni (~1.5 years old)
+* **Supports most OS:** Runs on Amazon Linux, Ubuntu/Debian, OS X, and Windows OS
+* **State of the art model support:** Flexible and efficient GPU computing and state-of-art deep learning i.e. CNN, LSTM to R. 
+* **Ultra Scalable:** Seamless tensor/matrix computation with multiple GPUs in R. 
+* **Ease of USe:** Construct and customize the state-of-art deep learning models in R, and apply them to tasks, such as image classification and data science challenges
+* **Multi-language:** Supports the Python, R, Julia and Scala languages
+* **Ecosystem:** Vibrant community from Academia and Industry
+
+## MXNet Architecture
+
+* You can specify the `Context` of the function to be executed within. This usually includes whether the function should be run on a CPU or a GPU, and if you specify a GPU, which GPU to use.
+
+
+<center><img src="images/mxnet_overview.png"></center>
+
+## MXNet R Package
+
+* The R Package can be downloaded using the following commands:
 
 ```
 install.packages("drat", repos="https://cran.rstudio.com")
 drat:::addRepo("dmlc")
 install.packages("mxnet")
 ```
+
 ##Amazon & MXNet for Deep Learning
 
-<center><img src="images/amazon_mxnet.png"></center>
+<center><img src="images/amazon_mxnet.png" width=700></center>
 
-## H2O Library
-
-* H2O is an open source, distributed, Java machine learning library
-* Ease of Use via Web Interface
-* R, Python, Scala, Spark & Hadoop Interfaces
-* Distributed Algorithms Scale to Big Data
-* Package can be downloaded from <http://www.h2o.ai/download/h2o/r>
-
-<center><img src="images/h2o.png"></center>
-
-## H2O R Package on CRAN
-
-<center><img src="images/h2o_design.png" width=880></center>
 
 ## MNIST Handwritten Dataset
 
@@ -111,7 +111,7 @@ install.packages("mxnet")
 * The MNIST database is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image
 * For this demo, the Kaggle pre-processed training and testing dataset were used. The training dataset, (train.csv), has 42000 rows and 785 columns. 
 
-<center><img src="images/mnist.png"></center>
+<center><img src="images/mnist.png" width=300></center>
 
 ## Demo
 
