@@ -1,3 +1,11 @@
+#####################################################################
+## Deep Learning Malaysia Meetup                                   ##
+## 15th February 2017                                              ##
+## Sourcecode: https://github.com/kuanhoong/deeplearning-malaysia/ ##
+## Title: Machine and Deep Learning with R                         ##
+## Presenter: Poo Kuan Hoong                                       ##
+#####################################################################
+
 library(mxnet)
 library(data.table)
 

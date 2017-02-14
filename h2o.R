@@ -1,11 +1,17 @@
-## R User Group Malaysia Bi-Monthly Meetup
-## 17th August 2016
-## For more info, visit: http://www.meetup.com/MY-RUserGroup/
-## Title: Handwritten Recognition using Deep Learning with R
-## Presenter: Poo Kuan Hoong
+#####################################################################
+## Deep Learning Malaysia Meetup                                   ##
+## 15th February 2017                                              ##
+## Sourcecode: https://github.com/kuanhoong/deeplearning-malaysia/ ##
+## Title: Machine and Deep Learning with R                         ##
+## Presenter: Poo Kuan Hoong                                       ##
+#####################################################################
+
+setwd('C:/Users/Kuan/Google Drive/DL-Meetup/')
+
+library(data.table)
 
 #load the training dataset with 42000 rows and 785 columns
-train <- read.csv ( "data/train.csv")
+train <- fread ( "data/train.csv")
 
 # Create a 28*28 matrix with pixel color values
 m = matrix(unlist(train[10,-1]), nrow = 28, byrow = TRUE)
@@ -27,6 +33,10 @@ lapply(1:6,
 )
 
 par(mfrow=c(1,1)) # set plot options back to default
+
+#########################################################
+## Training and Modelling                              ##
+#########################################################
 
 #load caret library
 library (caret)
@@ -63,12 +73,16 @@ tsData[,1]<-as.factor(tsData[,1])
 start<-proc.time()
 
 #deep learning model
+set.seed(1234)
 model.dl <- h2o.deeplearning(x = 2:785,
                              y = 1,
                              trData,
-                             activation = "Tanh",
-                             hidden=rep(160,5),
-                             epochs = 20)
+                             activation = "RectifierWithDropout",
+                             input_dropout_ratio = 0.2,
+                             hidden_dropout_ratios = c(0.5,0.5),
+                             balance_classes = TRUE, 
+                             hidden = c(800,800),
+                             epochs = 500)
 #measure end time
 end <- proc.time()
 
