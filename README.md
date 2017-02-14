@@ -3,7 +3,7 @@
 Deep Learning Malaysia Meetup</br>
 15th Feb 2017</br>
 ADAX</br>
-Presenter: Poo Kuan Hoong, Ph.D
+Presenter: Poo Kuan Hoong, Ph.D</br>
 Presentation Slides: http://www.slideshare.net/kuanhoong/machine-learning-and-deep-learning-with-r
 
 ## Machine Learning and Deep Learning with R
