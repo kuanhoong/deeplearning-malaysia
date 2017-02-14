@@ -1,8 +1,8 @@
 # Deep Learning Malaysia Meetup
 
-Deep Learning Malaysia Meetup
-15th Feb 2017
-ADAX
+Deep Learning Malaysia Meetup</br>
+15th Feb 2017</br>
+ADAX</br>
 Presenter: Poo Kuan Hoong, Ph.D
 
 ## Handwritten Recognition using Deep Learning with R
