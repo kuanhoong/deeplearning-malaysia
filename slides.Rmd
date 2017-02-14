@@ -74,10 +74,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ##MXNet
 <center><img src="images/mxnet.png"></center>
 
-* MXNet supports the R programming language. 
+* MXNet runs on Amazon Linux, Ubuntu/Debian, OS X, and Windows operating systems.
 * Flexible and efficient GPU computing and state-of-art deep learning to R. 
 * Seamless tensor/matrix computation with multiple GPUs in R. 
 * Construct and customize the state-of-art deep learning models in R, and apply them to tasks, such as image classification and data science challenges
+* Supports the Python, R, Julia and Scala languages
 * MXNet Package can be downloaded using the following commands:
 
 ```
