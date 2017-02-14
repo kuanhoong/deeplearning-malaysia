@@ -85,6 +85,10 @@ install.packages("drat", repos="https://cran.rstudio.com")
 drat:::addRepo("dmlc")
 install.packages("mxnet")
 ```
+##Amazon & MXNet for Deep Learning
+
+<center><img src="images/amazon_mxnet.png"></center>
+
 ## H2O Library
 
 * H2O is an open source, distributed, Java machine learning library
