@@ -2,8 +2,7 @@
 title: "Machine Learning and Deep Learning with R"
 author: "Poo Kuan Hoong"
 date: "February 15, 2017"
-output:
-  slidy_presentation: default
+output: slidy_presentation
 ---
 
 ```{r setup, include=FALSE}
@@ -24,6 +23,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Human Brain
 
+
 <center><img src="images/brain.png"></center>
 
 ## Neural Networks
@@ -34,6 +34,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * Each node (also called a neuron) in the hidden and output layers has a classifier. 
 
 ## Neural Network Layers
+
 
 <center><img src="images/neural_networks.png" width=700></center>
 
@@ -62,6 +63,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Deep Learning: Applications
 
+
 <center><img src="images/deep_learning_applications.png" width=850></center>
 
 ## Deep Learning: R Libraries
@@ -72,6 +74,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - [h2o](https://github.com/h2oai/h2o-3): The R interface to the H2O deep-learning framework.
 
 ##MXNet
+
 <center><img src="images/mxnet.png" width=200></center>
 
 * **Founded by:** Uni. Washington & Carnegie Mellon Uni (~1.5 years old)
@@ -86,7 +89,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * You can specify the `Context` of the function to be executed within. This usually includes whether the function should be run on a CPU or a GPU, and if you specify a GPU, which GPU to use.
 
-
 <center><img src="images/mxnet_overview.png"></center>
 
 ## MXNet R Package
@@ -100,6 +102,7 @@ install.packages("mxnet")
 ```
 
 ##Amazon & MXNet for Deep Learning
+
 
 <center><img src="images/amazon_mxnet.png" width=700></center>
 
@@ -122,6 +125,7 @@ install.packages("mxnet")
 <center><img src="images/mxnet-kaggle.png"></center>
 
 ## Lastly...
+
 
 <center><img src="images/thankyou.png" width=900></center>
 
