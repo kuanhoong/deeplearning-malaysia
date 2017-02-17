@@ -18,7 +18,7 @@ The MXNet R Package can be downloaded using the following commands:
 install.packages("drat", repos="https://cran.rstudio.com")
 drat:::addRepo("dmlc")
 install.packages("mxnet")
-library(devtool)
+library(devtools)
 devtools::install_github("datastorm-open/visNetwork")
 ```
 **MNIST Handwritten Digits Database**
